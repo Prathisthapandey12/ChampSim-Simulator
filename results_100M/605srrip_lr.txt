@@ -1,0 +1,330 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 100000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs dpc3_traces/605.mcf_s-1536B.champsimtrace.xz
+CPU 0 Bimodal branch predictor
+Initialize SRRIP state
+Heartbeat CPU 0 instructions: 10000003 cycles: 3283058 heartbeat IPC: 3.04594 cumulative IPC: 3.04594 (Simulation time: 0 hr 0 min 35 sec) 
+Heartbeat CPU 0 instructions: 20000003 cycles: 6560599 heartbeat IPC: 3.05107 cumulative IPC: 3.0485 (Simulation time: 0 hr 1 min 11 sec) 
+Heartbeat CPU 0 instructions: 30000001 cycles: 9847736 heartbeat IPC: 3.04216 cumulative IPC: 3.04639 (Simulation time: 0 hr 1 min 46 sec) 
+Heartbeat CPU 0 instructions: 40000001 cycles: 13140224 heartbeat IPC: 3.03722 cumulative IPC: 3.04409 (Simulation time: 0 hr 2 min 27 sec) 
+Heartbeat CPU 0 instructions: 50000003 cycles: 16442196 heartbeat IPC: 3.02849 cumulative IPC: 3.04096 (Simulation time: 0 hr 3 min 5 sec) 
+Heartbeat CPU 0 instructions: 60000001 cycles: 19745668 heartbeat IPC: 3.02712 cumulative IPC: 3.03864 (Simulation time: 0 hr 3 min 42 sec) 
+Heartbeat CPU 0 instructions: 70000002 cycles: 23050549 heartbeat IPC: 3.02583 cumulative IPC: 3.0368 (Simulation time: 0 hr 4 min 18 sec) 
+Heartbeat CPU 0 instructions: 80000000 cycles: 26353759 heartbeat IPC: 3.02736 cumulative IPC: 3.03562 (Simulation time: 0 hr 4 min 59 sec) 
+Heartbeat CPU 0 instructions: 90000000 cycles: 29657918 heartbeat IPC: 3.02649 cumulative IPC: 3.0346 (Simulation time: 0 hr 5 min 36 sec) 
+Heartbeat CPU 0 instructions: 100000001 cycles: 32960514 heartbeat IPC: 3.02792 cumulative IPC: 3.03393 (Simulation time: 0 hr 6 min 13 sec) 
+
+Warmup complete CPU 0 instructions: 100000001 cycles: 32960514 (Simulation time: 0 hr 6 min 13 sec) 
+
+Heartbeat CPU 0 instructions: 110000000 cycles: 98290707 heartbeat IPC: 0.153069 cumulative IPC: 0.153069 (Simulation time: 0 hr 7 min 17 sec) 
+Heartbeat CPU 0 instructions: 120000000 cycles: 163813754 heartbeat IPC: 0.152618 cumulative IPC: 0.152843 (Simulation time: 0 hr 8 min 28 sec) 
+Heartbeat CPU 0 instructions: 130000003 cycles: 229231943 heartbeat IPC: 0.152863 cumulative IPC: 0.15285 (Simulation time: 0 hr 9 min 35 sec) 
+Heartbeat CPU 0 instructions: 140000000 cycles: 294727107 heartbeat IPC: 0.152683 cumulative IPC: 0.152808 (Simulation time: 0 hr 10 min 41 sec) 
+Heartbeat CPU 0 instructions: 150000000 cycles: 360358414 heartbeat IPC: 0.152366 cumulative IPC: 0.152719 (Simulation time: 0 hr 11 min 48 sec) 
+Heartbeat CPU 0 instructions: 160000000 cycles: 426352366 heartbeat IPC: 0.151529 cumulative IPC: 0.15252 (Simulation time: 0 hr 12 min 52 sec) 
+Heartbeat CPU 0 instructions: 170000002 cycles: 492977337 heartbeat IPC: 0.150094 cumulative IPC: 0.152168 (Simulation time: 0 hr 13 min 58 sec) 
+Heartbeat CPU 0 instructions: 180000002 cycles: 559910082 heartbeat IPC: 0.149404 cumulative IPC: 0.151817 (Simulation time: 0 hr 15 min 3 sec) 
+Heartbeat CPU 0 instructions: 190000000 cycles: 626990165 heartbeat IPC: 0.149076 cumulative IPC: 0.151508 (Simulation time: 0 hr 16 min 8 sec) 
+Heartbeat CPU 0 instructions: 200000002 cycles: 694174162 heartbeat IPC: 0.148845 cumulative IPC: 0.151237 (Simulation time: 0 hr 17 min 14 sec) 
+Finished CPU 0 instructions: 100000001 cycles: 661213648 cumulative IPC: 0.151237 (Simulation time: 0 hr 17 min 14 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.151237 instructions: 100000001 cycles: 661213648
+L1D TOTAL     ACCESS:   18561991  HIT:   13017629  MISS:    5544362
+L1D LOAD      ACCESS:   14127806  HIT:    8860606  MISS:    5267200
+L1DL1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1D AVERAGE MISS LATENCY: 122.402 cycles
+L1I TOTAL     ACCESS:   19736062  HIT:   19736062  MISS:          0
+L1I LOAD      ACCESS:   19736062  HIT:   19736062  MISS:          0
+L1IL1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I AVERAGE MISS LATENCY: -nan cycles
+L2C TOTAL     ACCESS:    7761451  HIT:    5157866  MISS:    2603585
+L2C LOAD      ACCESS:    5267200  HIT:    2683387  MISS:    2583813
+L2CL2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:    2217089  HIT:    2217089  MISS:          0
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C AVERAGE MISS LATENCY: 197.45 cycles
+LLC TOTAL     ACCESS:    4820050  HIT:    2317965  MISS:    2502085
+LLC LOAD      ACCESS:    2583814  HIT:      86242  MISS:    2497572
+LLCLLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:    2216464  HIT:    2211996  MISS:       4468
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC AVERAGE MISS LATENCY: 173.344 cycles
+Major fault: 0 Minor fault: 81253
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:       1367  ROW_BUFFER_MISS:    2496250
+ DBUS_CONGESTED:     739573
+ WQ ROW_BUFFER_HIT:        104  ROW_BUFFER_MISS:      94756  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 6
+
+CPU 0 Branch Prediction Accuracy: 99.9778% MPKI: 0.03462 Average ROB Occupancy at Mispredict: 182.043
+
+Branch types
+NOT_BRANCH: 84422537 84.4225%
+BRANCH_DIRECT_JUMP: 2274910 2.27491%
+BRANCH_INDIRECT: 0 0%
+BRANCH_CONDITIONAL: 8868368 8.86837%
+BRANCH_DIRECT_CALL: 2217092 2.21709%
+BRANCH_INDIRECT_CALL: 0 0%
+BRANCH_RETURN: 2217092 2.21709%
+BRANCH_OTHER: 0 0%
+
+*****************************************************************************
+Total Access: 9.55117e+06 , Number of Tag Comparsion: 225011153
+Overhead: 23.5585
+ Categorisation of sets based on accesses 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+99             7331
+*****************
+      Hot     
+*****************
+Set No             Freq 
+1640             7329
+1477             7329
+1687             7328
+1060             7328
+942             7328
+1889             7327
+1163             7327
+1024             7327
+888             7327
+1784             7326
+1217             7326
+1215             7326
+867             7326
+546             7326
+371             7326
+1993             7325
+1990             7325
+1805             7325
+1152             7325
+1127             7325
+886             7325
+764             7325
+622             7325
+1442             7324
+858             7324
+679             7324
+547             7324
+1092             7323
+1019             7323
+1002             7323
+907             7323
+419             7323
+1504             7322
+1263             7322
+1155             7322
+977             7322
+880             7322
+833             7322
+631             7322
+250             7322
+2000             7321
+1815             7321
+1532             7321
+1192             7321
+774             7321
+387             7321
+383             7321
+303             7321
+77             7321
+267             7320
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+2007             7069
+*****************
+     Cold     
+*****************
+Set No             Freq 
+333             7070
+917             7070
+1230             7070
+1725             7070
+508             7071
+979             7071
+1242             7071
+1304             7071
+1432             7071
+1466             7071
+1575             7071
+1989             7071
+2035             7071
+146             7072
+159             7072
+269             7072
+530             7072
+623             7072
+635             7072
+762             7072
+767             7072
+920             7072
+924             7072
+958             7072
+963             7072
+1114             7072
+1190             7072
+1196             7072
+1269             7072
+1418             7072
+1486             7072
+1487             7072
+1502             7072
+1812             7072
+1823             7072
+1838             7072
+1856             7072
+1886             7072
+2012             7072
+2026             7072
+3             7073
+101             7073
+178             7073
+359             7073
+372             7073
+532             7073
+866             7073
+879             7073
+898             7073
+913             7073
+Categorisation of sets based on Eviction 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+979             7333
+*****************
+      Hot     
+*****************
+Set No             Freq 
+1242             7332
+917             7332
+99             7332
+2007             7331
+1477             7331
+1024             7331
+942             7331
+508             7331
+333             7331
+1725             7330
+1687             7330
+1230             7330
+1889             7329
+1640             7329
+1060             7329
+1217             7328
+1215             7328
+1163             7328
+1152             7328
+1993             7327
+1784             7327
+1304             7327
+888             7327
+886             7327
+867             7327
+764             7327
+679             7327
+546             7327
+1805             7326
+1442             7326
+1127             7326
+1002             7326
+880             7326
+371             7326
+1990             7325
+1092             7325
+977             7325
+833             7325
+622             7325
+858             7324
+547             7324
+1504             7323
+1263             7323
+1019             7323
+907             7323
+774             7323
+631             7323
+419             7323
+2000             7322
+1192             7322
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+269             7073
+*****************
+     Cold     
+*****************
+Set No             Freq 
+767             7074
+984             7074
+1190             7074
+1575             7074
+1989             7074
+2036             7074
+359             7075
+530             7075
+532             7075
+806             7075
+879             7075
+898             7075
+1170             7075
+1196             7075
+1466             7075
+1497             7075
+1632             7075
+1760             7075
+1788             7075
+1838             7075
+101             7076
+146             7076
+178             7076
+704             7076
+713             7076
+718             7076
+765             7076
+818             7076
+924             7076
+926             7076
+958             7076
+963             7076
+1016             7076
+1032             7076
+1111             7076
+1201             7076
+1261             7076
+1351             7076
+1418             7076
+1424             7076
+1498             7076
+1517             7076
+1823             7076
+1853             7076
+1856             7076
+1886             7076
+2012             7076
+2022             7076
+2035             7076
+8             7077

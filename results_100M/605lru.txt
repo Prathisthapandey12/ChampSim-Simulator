@@ -1,0 +1,329 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 100000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs dpc3_traces/605.mcf_s-1536B.champsimtrace.xz
+CPU 0 Bimodal branch predictor
+Heartbeat CPU 0 instructions: 10000003 cycles: 3283660 heartbeat IPC: 3.04538 cumulative IPC: 3.04538 (Simulation time: 0 hr 0 min 44 sec) 
+Heartbeat CPU 0 instructions: 20000003 cycles: 6561434 heartbeat IPC: 3.05085 cumulative IPC: 3.04811 (Simulation time: 0 hr 1 min 31 sec) 
+Heartbeat CPU 0 instructions: 30000001 cycles: 9848799 heartbeat IPC: 3.04195 cumulative IPC: 3.04606 (Simulation time: 0 hr 2 min 18 sec) 
+Heartbeat CPU 0 instructions: 40000001 cycles: 13143006 heartbeat IPC: 3.03563 cumulative IPC: 3.04344 (Simulation time: 0 hr 3 min 7 sec) 
+Heartbeat CPU 0 instructions: 50000003 cycles: 16445206 heartbeat IPC: 3.02828 cumulative IPC: 3.0404 (Simulation time: 0 hr 3 min 53 sec) 
+Heartbeat CPU 0 instructions: 60000001 cycles: 19748927 heartbeat IPC: 3.02689 cumulative IPC: 3.03814 (Simulation time: 0 hr 4 min 40 sec) 
+Heartbeat CPU 0 instructions: 70000002 cycles: 23054002 heartbeat IPC: 3.02565 cumulative IPC: 3.03635 (Simulation time: 0 hr 5 min 26 sec) 
+Heartbeat CPU 0 instructions: 80000000 cycles: 26357430 heartbeat IPC: 3.02716 cumulative IPC: 3.0352 (Simulation time: 0 hr 6 min 12 sec) 
+Heartbeat CPU 0 instructions: 90000000 cycles: 29661898 heartbeat IPC: 3.02621 cumulative IPC: 3.0342 (Simulation time: 0 hr 6 min 58 sec) 
+Heartbeat CPU 0 instructions: 100000001 cycles: 32964782 heartbeat IPC: 3.02766 cumulative IPC: 3.03354 (Simulation time: 0 hr 7 min 44 sec) 
+
+Warmup complete CPU 0 instructions: 100000001 cycles: 32964782 (Simulation time: 0 hr 7 min 44 sec) 
+
+Heartbeat CPU 0 instructions: 110000000 cycles: 98338494 heartbeat IPC: 0.152967 cumulative IPC: 0.152967 (Simulation time: 0 hr 9 min 4 sec) 
+Heartbeat CPU 0 instructions: 120000000 cycles: 164401709 heartbeat IPC: 0.15137 cumulative IPC: 0.152164 (Simulation time: 0 hr 10 min 24 sec) 
+Heartbeat CPU 0 instructions: 130000003 cycles: 230064882 heartbeat IPC: 0.152292 cumulative IPC: 0.152207 (Simulation time: 0 hr 11 min 45 sec) 
+Heartbeat CPU 0 instructions: 140000000 cycles: 296293428 heartbeat IPC: 0.150992 cumulative IPC: 0.151901 (Simulation time: 0 hr 13 min 6 sec) 
+Heartbeat CPU 0 instructions: 150000000 cycles: 362456755 heartbeat IPC: 0.151141 cumulative IPC: 0.151749 (Simulation time: 0 hr 14 min 25 sec) 
+Heartbeat CPU 0 instructions: 160000000 cycles: 428552417 heartbeat IPC: 0.151296 cumulative IPC: 0.151673 (Simulation time: 0 hr 15 min 44 sec) 
+Heartbeat CPU 0 instructions: 170000002 cycles: 495559373 heartbeat IPC: 0.149238 cumulative IPC: 0.15132 (Simulation time: 0 hr 17 min 7 sec) 
+Heartbeat CPU 0 instructions: 180000002 cycles: 562635787 heartbeat IPC: 0.149084 cumulative IPC: 0.151037 (Simulation time: 0 hr 18 min 25 sec) 
+Heartbeat CPU 0 instructions: 190000000 cycles: 629884583 heartbeat IPC: 0.148702 cumulative IPC: 0.150774 (Simulation time: 0 hr 19 min 47 sec) 
+Heartbeat CPU 0 instructions: 200000002 cycles: 697624864 heartbeat IPC: 0.147623 cumulative IPC: 0.150453 (Simulation time: 0 hr 21 min 9 sec) 
+Finished CPU 0 instructions: 100000001 cycles: 664660082 cumulative IPC: 0.150453 (Simulation time: 0 hr 21 min 9 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.150453 instructions: 100000001 cycles: 664660082
+L1D TOTAL     ACCESS:   18564013  HIT:   13019651  MISS:    5544362
+L1D LOAD      ACCESS:   14129828  HIT:    8862628  MISS:    5267200
+L1DL1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1D AVERAGE MISS LATENCY: 124.178 cycles
+L1I TOTAL     ACCESS:   19746078  HIT:   19746078  MISS:          0
+L1I LOAD      ACCESS:   19746078  HIT:   19746078  MISS:          0
+L1IL1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I AVERAGE MISS LATENCY: -nan cycles
+L2C TOTAL     ACCESS:    7761451  HIT:    5143222  MISS:    2618229
+L2C LOAD      ACCESS:    5267200  HIT:    2667589  MISS:    2599611
+L2CL2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:    2217089  HIT:    2217089  MISS:          0
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C AVERAGE MISS LATENCY: 200.254 cycles
+LLC TOTAL     ACCESS:    4834656  HIT:    1162899  MISS:    3671757
+LLC LOAD      ACCESS:    2599612  HIT:      49499  MISS:    2550113
+LLCLLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:    2216426  HIT:    1101663  MISS:    1114763
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC AVERAGE MISS LATENCY: 120.915 cycles
+Major fault: 0 Minor fault: 81253
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:       4469  ROW_BUFFER_MISS:    2552525
+ DBUS_CONGESTED:     917605
+ WQ ROW_BUFFER_HIT:      96169  ROW_BUFFER_MISS:    2116809  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 6
+
+CPU 0 Branch Prediction Accuracy: 99.9778% MPKI: 0.03462 Average ROB Occupancy at Mispredict: 182.031
+
+Branch types
+NOT_BRANCH: 84422537 84.4225%
+BRANCH_DIRECT_JUMP: 2274910 2.27491%
+BRANCH_INDIRECT: 0 0%
+BRANCH_CONDITIONAL: 8868368 8.86837%
+BRANCH_DIRECT_CALL: 2217092 2.21709%
+BRANCH_INDIRECT_CALL: 0 0%
+BRANCH_RETURN: 2217092 2.21709%
+BRANCH_OTHER: 0 0%
+
+*****************************************************************************
+Total Access: 9.56462e+06 , Number of Tag Comparsion: 224939492
+Overhead: 23.5179
+ Categorisation of sets based on accesses 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+777             7750
+*****************
+      Hot     
+*****************
+Set No             Freq 
+1602             7527
+790             7362
+645             7357
+1977             7356
+1975             7355
+1663             7354
+1052             7354
+13             7352
+1538             7350
+895             7350
+679             7350
+489             7350
+157             7350
+1996             7349
+1911             7349
+919             7349
+1420             7348
+297             7348
+1723             7347
+950             7347
+559             7347
+557             7347
+1471             7346
+1049             7346
+101             7346
+1112             7345
+1083             7345
+980             7345
+421             7345
+418             7345
+417             7345
+291             7345
+745             7344
+385             7344
+209             7344
+52             7344
+917             7343
+422             7342
+1883             7341
+1866             7341
+1493             7341
+1288             7341
+296             7341
+1984             7340
+1662             7340
+1105             7340
+163             7340
+1919             7339
+1671             7339
+1594             7339
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+294             7151
+*****************
+     Cold     
+*****************
+Set No             Freq 
+1196             7151
+1727             7151
+1892             7151
+2026             7151
+81             7152
+761             7152
+886             7152
+889             7152
+1085             7152
+1114             7152
+1253             7152
+1291             7152
+1353             7152
+1354             7152
+1363             7152
+1421             7152
+1453             7152
+1473             7152
+1533             7152
+1553             7152
+1897             7152
+2009             7152
+11             7153
+53             7153
+114             7153
+129             7153
+156             7153
+219             7153
+228             7153
+235             7153
+292             7153
+293             7153
+348             7153
+356             7153
+420             7153
+614             7153
+634             7153
+953             7153
+956             7153
+966             7153
+971             7153
+987             7153
+1079             7153
+1104             7153
+1209             7153
+1250             7153
+1258             7153
+1262             7153
+1270             7153
+1325             7153
+Categorisation of sets based on Eviction 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+777             7750
+*****************
+      Hot     
+*****************
+Set No             Freq 
+1602             7527
+790             7362
+645             7357
+1977             7356
+1975             7355
+1663             7354
+1052             7354
+13             7352
+1538             7350
+895             7350
+679             7350
+489             7350
+157             7350
+1996             7349
+1911             7349
+919             7349
+1420             7348
+297             7348
+1723             7347
+950             7347
+559             7347
+557             7347
+1471             7346
+1049             7346
+101             7346
+1112             7345
+1083             7345
+980             7345
+421             7345
+418             7345
+417             7345
+291             7345
+745             7344
+385             7344
+209             7344
+52             7344
+917             7343
+422             7342
+1883             7341
+1866             7341
+1493             7341
+1288             7341
+296             7341
+1984             7340
+1662             7340
+1105             7340
+163             7340
+1919             7339
+1671             7339
+1594             7339
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+1196             7151
+*****************
+     Cold     
+*****************
+Set No             Freq 
+1727             7151
+1892             7151
+2026             7151
+81             7152
+761             7152
+886             7152
+889             7152
+1253             7152
+1291             7152
+1353             7152
+1354             7152
+1363             7152
+1421             7152
+1453             7152
+1473             7152
+1533             7152
+1553             7152
+1897             7152
+2009             7152
+11             7153
+53             7153
+114             7153
+129             7153
+156             7153
+219             7153
+228             7153
+235             7153
+292             7153
+293             7153
+348             7153
+356             7153
+420             7153
+614             7153
+634             7153
+953             7153
+956             7153
+966             7153
+971             7153
+987             7153
+1079             7153
+1104             7153
+1209             7153
+1250             7153
+1258             7153
+1262             7153
+1270             7153
+1325             7153
+1326             7153
+1340             7153
+1477             7153
